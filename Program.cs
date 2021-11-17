@@ -13,7 +13,7 @@ namespace ConsoleApp
             {
                 array[i] = random.Next(100);
             }
-            Console.WriteLine(Arrays.GetReverseOfArray(array));
+            Console.WriteLine(Arrays.GetCountOfOddElements(array));
 
             //Array.Sort(array);
             for (int i = 0; i < array.Length; i++)
